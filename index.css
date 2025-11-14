@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Ganesh Trade Admin Styles (Desktop) ===== */
+body {
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f5f7fb;
+  color: #0f172a;
+ /* overflow: hidden;  固定视口，防止页面整体滚动 */
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 116, 139, 0.4);
+  border-radius: 4px;
+}
+
+ nav {
+  background: rgba(255, 255, 255, 0.95);
+} 
+
+table {
+  border-collapse: collapse;
+}
+th, td {
+  white-space: nowrap;
+}
+
+ input, button {
+  outline: none;
+}
